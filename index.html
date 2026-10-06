@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Factory - Shop Men & Women Clothing & Accessories</title>
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div class="announcement-bar">
+        <span>🔥 Flat 50% OFF on Pop Culture & Streetwear Collection! Use Code: <strong>FACTORY50</strong> 🔥</span>
+    </div>
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#">FASHION <span>FACTORY</span></a>
+            </div>
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#men">Men</a>
+                <a href="#women">Women</a>
+                <a href="#fandom">Fandom <span class="badge-hot">Hot</span></a>
+                <a href="#accessories">Accessories</a>
+            </nav>
+            <div class="nav-actions">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search tees, hoodies, cargos...">
+                </div>
+                <a href="#" class="icon-btn" title="Wishlist"><i class="fa-regular fa-heart"></i><span class="count">3</span></a>
+                <a href="#" class="icon-btn" title="Cart"><i class="fa-solid fa-bag-shopping"></i><span class="count">2</span></a>
+                <a href="#" class="icon-btn user-btn" title="Account"><i class="fa-regular fa-user"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO CAROUSEL / BANNER -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="hero-subtitle">⚡ THE ULTIMATE STYLE HUB</span>
+            <h1>WEAR YOUR <span>VIBE</span></h1>
+            <p>From anime & movie fandoms to oversized streetwear & everyday chic. Upgrade your wardrobe with exclusive designs crafted for rebels & trendsetters.</p>
+            <div class="hero-buttons">
+                <a href="#men" class="btn btn-primary">Shop Men</a>
+                <a href="#women" class="btn btn-secondary">Shop Women</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATEGORY ROUND GRID -->
+    <section class="categories container">
+        <h2 class="section-title">Explore <span>Categories</span></h2>
+        <div class="cat-grid">
+            <div class="cat-card">
+                <div class="cat-img"><img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=400&auto=format&fit=crop&q=60" alt="Oversized Tees"></div>
+                <h3>Oversized Tees</h3>
+            </div>
+            <div class="cat-card">
+                <div class="cat-img"><img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=400&auto=format&fit=crop&q=60" alt="Hoodies & Jackets"></div>
+                <h3>Hoodies & Jackets</h3>
+            </div>
+            <div class="cat-card">
+                <div class="cat-img"><img src="https://images.unsplash.com/photo-1578632767115-351597cf2477?w=400&auto=format&fit=crop&q=60" alt="Anime & Fandom"></div>
+                <h3>Anime & Fandom</h3>
+            </div>
+            <div class="cat-card">
+                <div class="cat-img"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&auto=format&fit=crop&q=60" alt="Footwear"></div>
+                <h3>Sneakers & Sliders</h3>
+            </div>
+            <div class="cat-card">
+                <div class="cat-img"><img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=400&auto=format&fit=crop&q=60" alt="Joggers"></div>
+                <h3>Joggers & Cargos</h3>
+            </div>
+            <div class="cat-card">
+                <div class="cat-img"><img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&auto=format&fit=crop&q=60" alt="Accessories"></div>
+                <h3>Backpacks & Caps</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- MEN'S CLOTHING SECTION -->
+    <section class="products-section container" id="men">
+        <div class="section-header">
+            <h2 class="section-title">Men's <span>Collection</span></h2>
+            <div class="filter-tabs">
+                <button class="tab-btn active" data-filter="all">All</button>
+                <button class="tab-btn" data-filter="men">Men</button>
+                <button class="tab-btn" data-filter="oversized">Oversized</button>
+                <button class="tab-btn" data-filter="hoodie">Hoodies</button>
+            </div>
+        </div>
+
+        <div class="product-grid" id="productGrid">
+            <!-- Product 1 -->
+            <div class="product-card" data-category="men oversized">
+                <div class="product-badge">20% OFF</div>
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&auto=format&fit=crop&q=60" alt="Product">
+                    <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="product-info">
+                    <span class="brand">Fashion Factory</span>
+                    <h4>Cyberpunk Neon Oversized Tee</h4>
+                    <div class="price-box">
+                        <span class="current-price">₹799</span>
+                        <span class="original-price">₹1,299</span>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card" data-category="men hoodie">
+                <div class="product-badge hot">Bestseller</div>
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=500&auto=format&fit=crop&q=60" alt="Product">
+                    <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="product-info">
+                    <span class="brand">Fashion Factory</span>
+                    <h4>Anime Flame Graphic Hoodie</h4>
+                    <div class="price-box">
+                        <span class="current-price">₹1,499</span>
+                        <span class="original-price">₹2,499</span>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card" data-category="men cargo">
+                <div class="product-badge">Trending</div>
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&auto=format&fit=crop&q=60" alt="Product">
+                    <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="product-info">
+                    <span class="brand">Fashion Factory</span>
+                    <h4>Utility Cargo Joggers (Black)</h4>
+                    <div class="price-box">
+                        <span class="current-price">₹1,299</span>
+                        <span class="original-price">₹1,999</span>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card" data-category="men oversized">
+                <div class="product-badge">New Drop</div>
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=500&auto=format&fit=crop&q=60" alt="Product">
+                    <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="product-info">
+                    <span class="brand">Fashion Factory</span>
+                    <h4>Vintage Wash Heavyweight Tee</h4>
+                    <div class="price-box">
+                        <span class="current-price">₹899</span>
+                        <span class="original-price">₹1,499</span>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WOMEN'S CLOTHING SECTION -->
+    <section class="products-section container" id="women">
+        <div class="section-header">
+            <h2 class="section-title">Women's <span>Collection</span></h2>
+            <div class="filter-tabs">
+                <button class="tab-btn active" data-filter="all">All</button>
+                <button class="tab-btn" data-filter="women">Women</button>
+                <button class="tab-btn" data-filter="crop">Crop Tops</button>
+                <button class="tab-btn" data-filter="dress">Dresses & Sets</button>
+            </div>
+        </div>
+
+        <div class="product-grid" id="womenProductGrid">
+            <!-- Product 5 -->
+            <div class="product-card" data-category="women crop">
+                <div class="product-badge">New</div>
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&auto=format&fit=crop&q=60" alt="Product">
+                    <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="product-info">
+                    <span class="brand">Fashion Factory x Marvel</span>
+                    <h4>Spiderman Graphic Cropped Top</h4>
+                    <div class="price-box">
+                        <span class="current-price">₹699</span>
+                        <span class="original-price">₹999</span>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card" data-category="women dress">
+                <div class="product-badge hot">Hot Trend</div>
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=500&auto=format&fit=crop&q=60" alt="Product">
+                    <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="product-info">
+                    <span class="brand">Fashion Factory</span>
+                    <h4>Aesthetic Pastel Oversized Sweatshirt</h4>
+                    <div class="price-box">
+                        <span class="current-price">₹1,199</span>
+                        <span class="original-price">₹1,899</span>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="product-card" data-category="women crop">
+                <div class="product-badge">30% OFF</div>
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&auto=format&fit=crop&q=60" alt="Product">
+                    <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="product-info">
+                    <span class="brand">Fashion Factory</span>
+                    <h4>Boho Summer Floral Midi Dress</h4>
+                    <div class="price-box">
+                        <span class="current-price">₹1,399</span>
+                        <span class="original-price">₹1,999</span>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="product-card" data-category="women dress">
+                <div class="product-badge">Limited</div>
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=500&auto=format&fit=crop&q=60" alt="Product">
+                    <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="product-info">
+                    <span class="brand">Fashion Factory</span>
+                    <h4>Ribbed Athleisure Co-ord Set</h4>
+                    <div class="price-box">
+                        <span class="current-price">₹1,799</span>
+                        <span class="original-price">₹2,599</span>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BANNER PROMO SECTION -->
+    <section class="promo-banner container" id="fandom">
+        <div class="promo-box">
+            <div class="promo-text">
+                <span>LIMITED EDITION DROP</span>
+                <h2>OFFICIAL MARVEL & DC COLLECTION</h2>
+                <p>Gear up with authorized superhero merchandise. Premium quality, ultimate comfort.</p>
+                <a href="#men" class="btn btn-primary">Explore Fandom</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES HIGHLIGHT -->
+    <section class="features container">
+        <div class="feature-item">
+            <i class="fa-solid fa-truck-fast"></i>
+            <div>
+                <h4>Express Shipping</h4>
+                <p>Fast delivery across all pin codes</p>
+            </div>
+        </div>
+        <div class="feature-item">
+            <i class="fa-solid fa-rotate-left"></i>
+            <div>
+                <h4>Easy 15-Day Returns</h4>
+                <p>Hassle-free exchange & returns</p>
+            </div>
+        </div>
+        <div class="feature-item">
+            <i class="fa-solid fa-shield-halved"></i>
+            <div>
+                <h4>100% Verified Quality</h4>
+                <p>Premium combed cotton & durable prints</p>
+            </div>
+        </div>
+        <div class="feature-item">
+            <i class="fa-solid fa-headset"></i>
+            <div>
+                <h4>24/7 Support</h4>
+                <p>Always here to help you style</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="accessories">
+        <div class="footer-container container">
+            <div class="footer-col">
+                <a href="#" class="footer-logo">FASHION <span>FACTORY</span></a>
+                <p>Your ultimate destination for pop-culture, fandom fashion, and trendy oversized streetwear. Express who you are!</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Shop Categories</h4>
+                <a href="#men">Men's Oversized Tees</a>
+                <a href="#women">Women's Crop Tops</a>
+                <a href="#men">Hoodies & Sweatshirts</a>
+                <a href="#fandom">Anime Collection</a>
+                <a href="#accessories">Footwear & Slides</a>
+            </div>
+            <div class="footer-col">
+                <h4>Customer Care</h4>
+                <a href="#">Track Order</a>
+                <a href="#">Returns & Exchanges</a>
+                <a href="#">Shipping Policy</a>
+                <a href="#">Help & FAQs</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="footer-col">
+                <h4>Join the Club</h4>
+                <p>Get exclusive early access to secret sales and new drops right in your inbox.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault();">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Fashion Factory. All Rights Reserved. Pop-Culture Streetwear Style.</p>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE FILTER SCRIPT -->
+    <script>
+        const filterButtons = document.querySelectorAll('.filter-tabs .tab-btn');
+        
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from sibling buttons inside the same header
+                const parentHeader = button.closest('.section-header');
+                parentHeader.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                const filterValue = button.getAttribute('data-filter');
+                const productGrid = parentHeader.nextElementSibling;
+                const products = productGrid.querySelectorAll('.product-card');
+
+                products.forEach(product => {
+                    const categories = product.getAttribute('data-category');
+                    if (filterValue === 'all' || categories.includes(filterValue)) {
+                        product.style.display = 'block';
+                    } else {
+                        product.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
